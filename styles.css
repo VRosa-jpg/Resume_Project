@@ -4,12 +4,14 @@ body {
     display: flex;
     justify-content: center;
     font-family: Roboto;
+    font-size: small;
+    color:white;
     
     overflow: scroll;
 }
 
 .main_container {
-    background-color: rgb(233, 141, 19);
+    background-color: rgb(48, 43, 36);
     height:auto;
     width: 70%;
     
@@ -26,10 +28,12 @@ body {
 }
 
 #box1 {
-    background-color: aqua;
+    background-color: #282828;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 1px solid black;
     display: flex;
     align-items: center;
-    width:60%;
+    width:59%;
 
 
 }
@@ -50,14 +54,23 @@ body {
 
 
 #box2 {
-    background-color: aquamarine;
+    background-color: #282828;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 1px solid black;
     width: 40%;
-    
     
 }
 
+#box2 p {
+    margin:2px;
+    padding:5px;
+    width: 70%;
+}
+
 #box3 {
-    background-color: blue;
+    background-color: #282828;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 1px solid black;
     flex-grow: 1;
     padding: 10px;
 }
@@ -75,19 +88,66 @@ body {
 }
 
 .bottom_box h3 {
-    background-color: bisque;
+    background-color: #282828;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 0px solid black;
 }
 
 #section2 {
-    background-color: azure;
+    background-color:#282828;
+    box-shadow: 5px 2px 2px rgb(0, 0, 0);
+    border: 1px solid black;
     width: 70%;
     height:100%;
     padding: 10px;
 }
 
 #section3 {
-    background-color: beige;
+    background-color: #282828;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 1px solid black;
     width:30%;
     height: auto;
     padding: 10px;
+}
+
+.bar {
+    background-color: #3b3b3b;
+    width: 90%;
+    height: 10px;
+}
+
+#skill1 {
+    background-color: #fcec12;
+    width: 85%;
+    height: 10px;
+
+}
+
+#skill2 {
+    background-color: #19bedc;
+    width: 65%;
+    height: 10px;
+}
+
+#skill3 {
+    background-color: #e62538;
+    width: 70%;
+    height: 10px;
+
+}
+
+#skill4 {
+    background-color: #19bedc;
+    width: 84%;
+    height: 10px;
+
+}
+
+#skill5 {
+    
+        background-color: #fcec12;
+        width: 95%;
+        height: 10px;
+    
 }
