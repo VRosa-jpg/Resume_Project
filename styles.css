@@ -30,10 +30,10 @@ body {
 #box1 {
     background-color: #282828;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     align-items: center;
-    width:59%;
+    width:60%;
 
 
 }
@@ -56,7 +56,7 @@ body {
 #box2 {
     background-color: #282828;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 0px solid black;
     width: 40%;
     
 }
@@ -70,7 +70,7 @@ body {
 #box3 {
     background-color: #282828;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 0px solid black;
     flex-grow: 1;
     padding: 10px;
 }
@@ -95,8 +95,8 @@ body {
 
 #section2 {
     background-color:#282828;
-    box-shadow: 5px 2px 2px rgb(0, 0, 0);
-    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 0px solid black;
     width: 70%;
     height:100%;
     padding: 10px;
@@ -105,7 +105,7 @@ body {
 #section3 {
     background-color: #282828;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 0px solid black;
     width:30%;
     height: auto;
     padding: 10px;
@@ -145,9 +145,7 @@ body {
 }
 
 #skill5 {
-    
-        background-color: #fcec12;
-        width: 95%;
-        height: 10px;
-    
+    background-color: #fcec12;
+    width: 95%;
+    height: 10px;
 }
